@@ -1,3 +1,3 @@
 # chengdu80-codes-QU
-Please put the original data in the original_data folder
-Run run.sh
+1. Please put the original data in the original_data folder
+2. Run run.sh
