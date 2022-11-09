@@ -1,0 +1,12 @@
+Submission File Format
+
+You should submit a csv file with exactly 3000 entries plus a header row. Your submission will show an error if you have extra columns or rows.
+
+The file should have exactly 4 columns:
+
+APPLICATION_ID (Keep the original value/order)
+APPLICATION_DATE (Keep the original value/order)
+0 (The probability that the sample is of class 0)
+1 (The probability that the sample is of class 1)
+
+Please refer to the sample submission file (sample_submission.csv) for details.
