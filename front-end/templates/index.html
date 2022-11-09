@@ -1,0 +1,139 @@
+<!-- 
+    Online HTML, CSS and JavaScript editor to run code online.
+-->
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico">
+</head>
+    
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+    body {
+        text-align: center;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        font-family: Arial, Helvetica, sans-serif;
+            background: url("https://img.freepik.com/premium-photo/business-finance-investment-background_158043-242.jpg?w=2000") no-repeat;
+            background-size:cover;
+    }
+
+    h1 {
+        text-align: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .language-picker__form{
+        text-align: left;
+    }
+
+    .bottom-container {
+        text-align: center;
+    }
+
+    .image-stack{
+        display: grid;
+        grid-template-columns: repeat(12, lfr);
+        position: relative;
+    }
+
+    input {
+        
+        padding: 8px 15px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+
+    .p_container{ width:550px; background:#fff; margin:0px auto 20px; border-radius:50px; text-align:left;box-shadow:0px 24px 40px rgb(0 0 0 / 16%); padding:34px 50px 40px;box-sizing:border-box;-webkit-box-sizing:border-box;}
+    .p_container h1{ margin-bottom:30px; font-size:35px;}
+    .book ul{ padding-left:0px;}
+    .book ul li{ width:100%; display:flex;align-items: center;}
+    .form-control{ width:100%;box-sizing:border-box;-webkit-box-sizing:border-box; border:2px #eeeeee solid; border-radius:12px; height:63px; line-height:normal; font-size:16px;outline: none;font-family:Arial, Helvetica, sans-serif;color:#6a6a6a;}
+    .book input::-webkit-input-placeholder{color:#6a6a6a; font-size:16px; }
+    .book input:-moz-placeholder{color:#6a6a6a;font-size:16px;}
+    .book input::-moz-placeholder{color:#6a6a6a;font-size:16px;}
+    .book input::-ms-input-placeholder{color:#6a6a6a;font-size:16px;}
+    .form_1{ width:100%; height:64px; line-height:normal; text-align: center; background:#8faef6; border-radius:10px; color:#3e2b12; border:0px;font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:16px;}
+    .form_2{ height:40px; line-height:normal; border-radius:4px; padding-left:5px; border:1px #999 solid; margin-left:5px;}
+
+    img{
+        width: 490px;
+        height: 300px;
+    }
+
+    #forget{
+        float: right;    
+        margin: 0 0 0 15px;
+    }
+    
+    div.container {
+        text-align: center;
+    }
+
+    ul.list li{
+        width: auto;
+        float: left;
+        margin: 10px 0;
+        text-align: center;
+    }
+</style>
+    
+<div class="language-picker js-language-picker" style="font-family:verdana">
+    <form action="" class="language-picker__form" ">
+        <label for="language-picker-select">Select your language</label>
+    
+        <select name="language-picker-select" id="language-picker-select" class="form_2">
+        <option lang="en" value="english" selected >English</option>
+        <option lang="fr" value="francais">Français</option>
+        <!-- other language options -->
+        </select>
+    </form>
+</div>
+   
+<body>
+
+<div class="p_container">
+
+<h1 style="font-family: Arial, Helvetica, sans-serif;">Log in Bank</h1>
+
+
+
+    <div class="book" style="text-align:center;">
+
+    <form method="post" id="addlisting" class="addlisting" >
+    <ul>
+    
+        
+    <li><input class="form-control" id="email" name="email"  placeholder="Enter Email: " required></li>
+
+    <li><input class="form-control" id="password" name="password" placeholder="Enter Password:" required></li>
+
+    <li><input class="form-control" type="date" id="posted_date" placeholder="Posted Date:" name="date" required></li>
+
+    <div id="g_id_onload"
+     data-client_id="YOUR_GOOGLE_CLIENT_ID"
+     data-auto_select="true"
+     data-login_uri="https://your.domain/your_login_endpoint">
+</div>
+
+    <a id="forget" href="/">Forget Password?</a> 
+
+    <br>
+    <br>
+    <li><input id="login" type="submit" value="Log In" class="form_1" href="file:///Users/yuanqiliang/Desktop/front-end/dashboard.html#"></li>
+
+    <div class="container" style="margin-left:auto;display:inline-block;">
+    <ul class="list">
+        <li>Don't have account?</li>
+        <li style="padding-left:0.096cm"><a id="Sign up" href="file:///Users/yuanqiliang/Desktop/front-end/dashboard.html#">Sign up</a></li>
+        <li style="padding-left:0.096cm">here</li>
+      </ul>
+    </div>
+    
+</form>
+    </div>
+</div>
+<div class="bottom-container" font-family="Arial, Helvetica, sans-serif;" style="position: fixed; bottom: 0; width:100%; text-align: center"">
+    <p class="copyright">Copyright © 2022 BANK | Privacy Policy</p>
+</div>
+</body>
