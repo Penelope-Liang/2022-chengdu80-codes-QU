@@ -7,7 +7,7 @@ In consumer lending, lenders use credit modeling methods to assess the default r
 3. Run run.sh
 
 # Teammates
-Zhihao Dong
+-Zhihao Dong
 Xu Wang
 Qiao Kang
 Jia Fu
