@@ -20,8 +20,6 @@ def give_shap_plot():
   X_train = X_train[feature_importance_descending.index[:num]]
   # Y_train = np.load('./train/label.npy')
 
-
-
   explainer = shap.TreeExplainer(model_lgb)
   shap_values = explainer.shap_values(X_train)
   # y_base = explainer.expected_value
