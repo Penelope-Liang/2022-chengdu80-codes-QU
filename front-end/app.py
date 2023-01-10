@@ -9,9 +9,6 @@ from model import give_shap_plot
 
 app = Flask(__name__, template_folder='templates')
 
-
-
-
 @app.route('/dashboard')
 
 def displayshap():
@@ -43,13 +40,6 @@ def displayshap():
 
 
     return render_template('displayshap.html', shap_plots = shap_plots)
-
-
-
-
-
-
-
 
 @app.route('/model_training')
 def model_training():
