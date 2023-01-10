@@ -6,5 +6,10 @@ In consumer lending, lenders use credit modeling methods to assess the default r
 2. Please put the original data in the original_data folder
 3. Run run.sh
 
-
-
+# Teammates
+Zhihao Dong
+Xu Wang
+Qiao Kang
+Jia Fu
+Yuanqi Liang
+Yi Liu
